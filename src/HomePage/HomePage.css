@@ -1,0 +1,52 @@
+.Header-page {
+    background-color: rgb(60, 55, 55);
+    padding: 10px;
+    text-align: center;
+    height : 10vh;
+  }
+
+.Body-page {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    height : 80vh;
+  }
+.Footer-page {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    height : 10vh;
+  }
+
+
+.navbar {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px;
+    justify-content: space-between;
+
+  }
+  
+  .navbar-list {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .navbar-list li {
+    margin-right: 10px;
+  }
+  
+  .navbar-list li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+  
+  .navbar-list li a:hover {
+    background-color: #ddd;
+  }
+
