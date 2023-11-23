@@ -110,7 +110,7 @@ export default function Login() {
                         <div className="error-feedback">{formError.password}</div>}
                     </div>
 
-                    <Link to="/HomePage" >
+                    <Link to="/UserPage" >
                     <button type="submit" className="submit-btn">
                         Login
                     </button>     
